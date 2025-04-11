@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Life Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Enter Your Details</h1>
+        <form id="user-form">
+            <input type="text" id="name" placeholder="Enter your name" required class="input-field">
+            <input type="date" id="dob" required class="input-field">
+            <button type="submit" class="button">Calculate</button>
+        </form>
+        <div id="result" class="result"></div>
+        <canvas id="lifeChart" style="max-width: 600px; margin-top: 20px;"></canvas>
+    </div>
+</body>
+
+</html>
